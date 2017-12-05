@@ -1,0 +1,51 @@
+Instructions
+
+Create a landing page with the following fields that matches the designs found in the resources/mockups directory.
+
+Rrequirements
+Landing page should require users to complete all the fields in each step before proceeding to the next step. Users should only be able to see 1 step at a time.
+
+Example:
+After completing all the input fields in Step 1, user will see step 2 and so on. 
+
+
+Step 1 - Input Requirements:
+
+Label: Select Home Value
+•	Input type selection
+•	Range ($50k-$950k with increment of $50k)
+•	Required
+
+Label: Select Mortgage
+•	Input type selection
+•	Range ($50k-$950k with increment of $50k)
+•	Required
+
+Label: Enter Zip Code
+•	Input type text
+•	Required
+
+
+Step 2 - Input Requirements:
+
+Label: Select Age
+•	Input type selection
+•	Range (62 to 99)
+
+Label: Enter Full Name
+•	Input type text
+•	Required (first name & last name)
+
+Label: Enter Address 
+•	Input type text
+•	Required
+
+
+Step 3 - Input Requirements:
+
+Label: Enter Phone
+•	Input type number
+•	Required
+
+
+**** To complete this task please save your code to a repository and email a link to the repo so we can clone it and test it out. You can send your email to jredd@aag.com ****

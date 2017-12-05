@@ -1,0 +1,6 @@
+Style-Guide
+
+Fonts: https://fonts.googleapis.com/css?family=Roboto:400,300,500,700
+Text Color: #000000
+Button Color: #16ad0e
+Section Back ground color: #ecf0f1     
