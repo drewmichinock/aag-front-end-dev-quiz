@@ -48,6 +48,7 @@ h2,
     font-size: 24px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 45px;
 }
 
 .sectionCopyright,
@@ -74,7 +75,7 @@ FORMS
     color: #fff;
     font-size: 28px;
     background: #16ad0e;
-    padding: 10px 200px 10px 200px;
+    padding: 10px 225px 10px 225px;
     border: 2px #16ad0e solid;
     text-decoration: none;
 }
@@ -101,6 +102,8 @@ FORMS
     border: 2px solid #c7c7c7;
     border-top-color: #16ad0e;
     border-top-width: 6px;
+    width: 600px;
+    margin: 0 auto;
 }
 
 .formInput {
@@ -113,40 +116,40 @@ FORMS
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    padding-top: 30px;
 }
 
 .test {
-    padding: 40px;
-    width: 600px;
+    padding: 40px 40px 0px 40px;
+    width: 540px;
     margin: 0 auto;
 }
 
 p select {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    padding: 10px 0 10px 0;
+    padding: 0px 0 0px 0;
+    height: 50px;
 }
 
 .propertyValue,
-.propertyMortgage,
-.propertyZip {
+.propertyMortgage {
 	padding-bottom: 15px;
 }
 
 .zip {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     padding: 10px 0 10px 0;
     border: 2px solid #c7c7c7;
     border-radius: 5px;
     background-color: #f8fafc;
-    padding-bottom: 
 }
 
 /* placeholder */
