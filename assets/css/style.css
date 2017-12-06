@@ -17,18 +17,19 @@ div {
 }
 
 hr {
-    display: block;
+    display: inline-block;
     height: 1px;
+    width: 100%;
     border: 0;
     border-top: 1px solid #f0f1f3;
-    margin: 1em 0;
-    padding: 0;
+    margin: 30em 0;
 }
 
 .container {
     width: 960px;
     margin: 0 auto;
     min-height: 100%;
+
 }
 
 .sectionTitle {
@@ -38,14 +39,9 @@ hr {
 }
 
 h2,
-.full-width {
-    /* add in section padding (1.5rem) */
+.full-width,
+hr {
     margin: 0 -601.5rem;
-    /* match section padding (1.5rem) */
-    /*padding: .25rem 1.5rem;*/
-    /* border solid, not RGBa (Safari bug) */
-    /* 9600px or 10240px to avoid Chrome bug */
-    /* or equivalent in ems or rems (9600/16) */
     border-left: 600rem solid #ecf0f1;
     border-right: 600rem solid #ecf0f1;
     color: #000;
@@ -179,11 +175,6 @@ p select {
     border-radius: 5px;
     background-color: #f8fafc;
 }
-
-
-
-
-
 
 /* placeholder */
 
