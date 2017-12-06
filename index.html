@@ -16,12 +16,12 @@
     <div class="container">
         <h1 class="sectionTitle">Convert Your Home Equity Into <strong>Tax-Free Cash</strong> With a <br>Reverse Mortgage Loan</h1>
         <h2 class="sectionSubTitle full-width">Get Your <strong>Free Reverse Mortgage Info Kit</strong> Now!</h2>
-        <div class="sectionForm">
-            <div class="formInput">
-                <form id="msform">
-                    <div class="sectionInput">
-                        <!-- BEGIN STEP ONE -->
-                        <fieldset>
+        <form id="msform">
+            <fieldset>
+                <div class="sectionForm">
+                    <div class="formInput">
+                        <div class="sectionInput">
+                            <!-- BEGIN STEP ONE -->
                             <div class="sectionQuestion">What's the estimated property value?</div>
                             <p class="propertyValue">
                                 <select name="propertyValue">
@@ -76,10 +76,18 @@
                             <p class="propertyZip">
                                 <input class="zip" placeholder="Enter property zip">
                             </p>
-                        </fieldset>
-                        <!-- END STEP ONE -->
-                        <!-- BEGIN STEP TWO -->
-                        <fieldset>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn next" type="button">NEXT <i style="font-size:24px;" class="fa">&#xf054;</i>
+                </button>
+            </fieldset>
+            <!-- END STEP ONE -->
+            <!-- BEGIN STEP TWO -->
+            <fieldset>
+                <div class="sectionForm">
+                    <div class="formInput">
+                        <div class="sectionInput">
                             <div class="sectionQuestion">What is the age of the homeowner on the
                                 <br> title?</div>
                             <p class="ownerAge">
@@ -133,25 +141,30 @@
                             <p class="propertyAddress">
                                 <input class="address" type="text" placeholder="Enter your street address">
                             </p>
-                        </fieldset>
-                        <!-- END STEP TWO -->
-                        <!-- BEGIN STEP THREE -->
-                        <fieldset>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <!-- END STEP TWO -->
+            <!-- BEGIN STEP THREE -->
+            <fieldset>
+                <div class="sectionForm">
+                    <div class="formInput">
+                        <div class="sectionInput">
                             <div class="sectionQuestion">What is your phone number?</div>
                             <div class="small-text">Your phone number will help us make sure you live in the United States</div>
                             <p class="propertyAddress">
                                 <input class="address" type="tel" placeholder="Enter your street address">
                             </p>
-                        </fieldset>
-                        <!-- END STEP THREE -->
+                        </div>
                     </div>
-                </form>
-            </div>
-        </div>
+                </div>
+            </fieldset>
+            <!-- END STEP THREE -->
+        </form>
         <div class="formBtn">
-            <button class="btn next" type="button">NEXT <i style="font-size:24px;" class="fa">&#xf054;</i></button>
         </div>
-<!--         <div class="formBtn">
+        <!--         <div class="formBtn">
             <button class="btn" type="button" value="submit action-button">SUBMIT <i style="font-size:24px;" class="fa">&#xf054;</i></button>
         </div> -->
         <footer id="footer">
