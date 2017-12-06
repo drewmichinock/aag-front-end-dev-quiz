@@ -5,7 +5,8 @@ body {
 
 h1,
 h2,
-p {
+p,
+div {
     font-family: 'Roboto', sans-serif;
     color: #000000;
 }
@@ -58,6 +59,12 @@ hr {
 .sectionDisclaimer {
     font-size: 12px;
     text-align: center;
+}
+
+.small-text {
+	text-align: center;
+	font-size: 12px;
+	padding: 15px 0 0 0;
 }
 
 
