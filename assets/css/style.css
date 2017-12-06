@@ -25,6 +25,11 @@ hr {
     margin: 30em 0;
 }
 
+fieldset {
+    border-color: #fff;
+    border: none;
+}
+
 .container {
     width: 960px;
     margin: 0 auto;
