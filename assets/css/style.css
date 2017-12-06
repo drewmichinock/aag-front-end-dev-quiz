@@ -77,3 +77,15 @@ h2, .sectionSubTitle {
 .fa-angle-right {
 	font-size: 28px;
 }
+
+.sectionForm {
+	border: 3px solid #000;
+}
+
+.formInput{
+	border: 3px solid #f00;
+}
+
+.formBtn {
+	border: 3px solid #0f0;
+}
