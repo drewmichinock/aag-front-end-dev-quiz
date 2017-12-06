@@ -213,3 +213,8 @@ p select {
     /* Firefox 18- */
     padding-left: 15px;
 }
+
+/* hide all except first fieldset */
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
