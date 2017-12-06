@@ -4,7 +4,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0px;
-    padding: 0px;    
+    padding: 0px;
     overflow-x: hidden;
 }
 
@@ -34,8 +34,6 @@ fieldset {
     width: 960px;
     margin: 0 auto;
     min-height: 100%;
-
-
 }
 
 .sectionTitle {
@@ -67,18 +65,12 @@ hr {
     margin-bottom: 45px;
 }
 
-.sectionCopyright,
-.sectionDisclaimer {
-    font-size: 12px;
-    text-align: center;
-    width: 960px;
-}
-
 .small-text {
     text-align: center;
     font-size: 12px;
     padding: 15px 0 0 0;
 }
+
 
 /***************************
 ****************************
@@ -87,7 +79,6 @@ FORMS
 
 ****************************
 ***************************/
-
 .btn {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
@@ -132,27 +123,22 @@ FORMS
 }
 
 .formInput {
-    /*border: 3px solid #f00;*/
     padding-bottom: 20px;
 }
 
 .formBtn {
-    /*border: 3px solid #0f0;*/
+
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    padding: 30px 0 100px 0;
+    padding: 20px 0 100px 0;
 }
 
+#footer,
 .formBtn:after {
-	content: "";
-	display: block;
-}
-
-#footer, .formBtn:after {
-	height: 120px;
+    height: 150px;
     text-align: center;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 
 .sectionInput {
@@ -194,27 +180,32 @@ p select {
     background-color: #f8fafc;
 }
 
-/* placeholder */
 
+/* placeholder */
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
+
     padding-left: 15px;
 }
 
 ::-moz-placeholder {
     /* Firefox 19+ */
+
     padding-left: 15px;
 }
 
 :-ms-input-placeholder {
     /* IE 10+ */
+
     padding-left: 15px;
 }
 
 :-moz-placeholder {
     /* Firefox 18- */
+
     padding-left: 15px;
 }
+
 
 /* hide all except first fieldset */
 #msform fieldset:not(:first-of-type) {
@@ -223,5 +214,22 @@ p select {
 
 fieldset {
     width: 600px;
+    margin: 0 auto;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background: #fff;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+    width: 960px;
+    display: inline-block;
     margin: 0 auto;
 }
