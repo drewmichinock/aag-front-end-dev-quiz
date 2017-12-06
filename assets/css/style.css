@@ -4,20 +4,38 @@ h1, h2, p {
 	color: #000000;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #f0f1f3;;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
 .sectionTitle {
 	font-size: 32px;
 	font-weight: 300;
+	text-align: center;
 
 }
 
 .sectionSubTitle {
 	background-color: #ecf0f1;
+	padding: 15px 0 15px 0;
 	font-size: 24px;
 	font-weight: 400;
+	text-align: center;
 }
 
 .sectionCopyright, .sectionDisclaimer {
 	font-size: 12px;
+	text-align: center;
 }
 
 
