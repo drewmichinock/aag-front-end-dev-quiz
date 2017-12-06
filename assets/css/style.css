@@ -30,6 +30,7 @@ hr {
     margin: 0 auto;
     min-height: 100%;
 
+
 }
 
 .sectionTitle {
@@ -73,9 +74,6 @@ hr {
     font-size: 12px;
     padding: 15px 0 0 0;
 }
-
-
-
 
 /***************************
 ****************************
@@ -134,7 +132,20 @@ FORMS
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    padding: 30px 0 15px 0;
+    padding: 30px 0 180px 0;
+}
+
+.formBtn:after {
+	content: "";
+	display: block;
+}
+
+#footer, .formBtn:after {
+	height: 150px;
+}
+
+#footer {
+
 }
 
 .sectionInput {
