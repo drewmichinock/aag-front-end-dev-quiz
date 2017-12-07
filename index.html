@@ -24,8 +24,8 @@
                             <!-- BEGIN STEP ONE -->
                             <div class="sectionQuestion">What's the estimated property value?</div>
                             <p class="propertyValue">
-                                <select name="propertyValue">
-                                    <option value="0">Select home value</option>
+                                <select name="propertyValue" class="propertyValueSelect" type="select" required>
+                                    <option value="">Select home value</option>
                                     <option value="$50k">$50,000 - $99,999</option>
                                     <option value="$100k">$100,000 - $149,999</option>
                                     <option value="$150k">$150,000 - $199,999</option>
@@ -49,8 +49,8 @@
                             </p>
                             <div class="sectionQuestion">What's your mortgage balance?</div>
                             <p class="propertyMortgage">
-                                <select name="propertyMortgage">
-                                    <option value="0">Select home value</option>
+                                <select name="propertyMortgageSelect" class="propertyMortgageSelect" type="select" required>
+                                    <option value="">Select home value</option>
                                     <option value="$50k">$50,000 - $99,999</option>
                                     <option value="$100k">$100,000 - $149,999</option>
                                     <option value="$150k">$150,000 - $199,999</option>
@@ -74,12 +74,12 @@
                             </p>
                             <div class="sectionQuestion">What's the zip code for your property?</div>
                             <p class="propertyZip">
-                                <input class="zip" placeholder="Enter property zip">
+                                <input class="zip" placeholder="Enter property zip" type="input" required>
                             </p>
                         </div>
                     </div>
                 </div>
-                <button class="btn next" type="button" name="next">NEXT <i style="font-size:24px;" class="fa">&#xf054;</i>
+                <button class="btn next" id="next" type="button" name="next">NEXT <i style="font-size:24px;" class="fa">&#xf054;</i>
                 </button>
             </fieldset>
             <!-- END STEP ONE -->
@@ -91,8 +91,8 @@
                             <div class="sectionQuestion">What is the age of the homeowner on the
                                 <br> title?</div>
                             <p class="ownerAge">
-                                <select name="ownerAge">
-                                    <option value="0">Please Select Age</option>
+                                <select name="ownerAgeSelect" class="ownerAgeSelect" type="select" required>
+                                    <option value="">Please Select Age</option>
                                     <option value="62">62</option>
                                     <option value="63">63</option>
                                     <option value="64">64</option>
@@ -135,11 +135,11 @@
                             </p>
                             <div class="sectionQuestion">What is your first and last name?</div>
                             <p class="nameFirstLast">
-                                <input class="name" type="text" placeholder="Enter first and last name">
+                                <input class="name" type="input" placeholder="Enter first and last name" required>
                             </p>
                             <div class="sectionQuestion">What is the property street address?</div>
                             <p class="propertyAddress">
-                                <input class="address" type="text" placeholder="Enter your street address">
+                                <input class="address" type="input" placeholder="Enter your street address" required>
                             </p>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
                             <div class="sectionQuestion">What is your phone number?</div>
                             <div class="small-text">Your phone number will help us make sure you live in the United States</div>
                             <p class="propertyAddress">
-                                <input class="address" type="tel" placeholder="Enter your street address">
+                                <input class="address" type="tel" placeholder="Enter your street address" required>
                             </p>
                         </div>
                     </div>

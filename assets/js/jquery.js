@@ -1,10 +1,48 @@
 $(document).ready(function() {
 
-    console.log("lock n' load..");
-
     var current_fs, next_fs, previous_fs; //fieldsets
     var left, opacity, scale; //fieldset properties which we will animate
     var animating; //prevents quick multi-click glitches
+
+    // disable btns when fields are not complete 
+
+    // disabling btns
+    // $("#next").attr('disabled', 'disabled');
+
+    // $(".submit").attr('disabled', 'disabled');
+
+    // check if selection is made
+    // function verifySelect() {
+
+    //     if ($(".propertyValueSelect").val() != '') {
+
+    //         return true;
+
+    //     } else {
+
+    //         return false
+
+    //     }
+
+    // }
+
+    // // check if selections are made
+    // function enableBtn() {
+
+    //     if (verifySelect()) {
+
+    //         $("#next").removeAttr('disabled', '');
+
+    //     } else {
+
+    //         $("#next").attr('disabled', 'disabled');
+
+    //     }
+
+    // }
+
+    // $(".propertyValueSelect").update(enableBtn());
+
 
     $(".next").click(function() {
 
@@ -16,8 +54,6 @@ $(document).ready(function() {
 
         //show the next fieldset
         next_fs.show();
-
-        console.log("test");
 
         //hide the current fieldset with style
         current_fs.animate({ opacity: 0.01 }, {
@@ -44,10 +80,11 @@ $(document).ready(function() {
             //this comes from the custom easing plugin
             // easing: 'easeInOutBack'
         });
-    });
 
-    $(".submit").click(function() {
-        return false;
-    })
+        $(".submit").click(function() {
+            return false;
+        })
+
+    });
 
 });
